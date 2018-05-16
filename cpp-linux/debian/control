@@ -32,7 +32,13 @@ Depends:
   ${misc:Depends},
   ${shlibs:Depends},
   libjemalloc1
-Description: Apache Arrow is a data processing library for analysis
+Description: data processing library for analysis - runtime
+ Apache Arrow is a cross-language development platform for in-memory data.
+ It specifies a standardized language-independent columnar memory format for
+ flat and hierarchical data, organized for efficient analytic operations on
+ modern hardware. It also provides computational libraries and zero-copy
+ streaming messaging and interprocess communication. Languages currently
+ supported include C, C++, Java, JavaScript, Python, and Ruby.
  .
  This package provides library files.
 
@@ -47,7 +53,13 @@ Depends:
   libarrow0 (= ${binary:Version}),
   python3,
   python3-numpy
-Description: Apache Arrow is a data processing library for analysis
+Description: data processing library for analysis - Python support
+ Apache Arrow is a cross-language development platform for in-memory data.
+ It specifies a standardized language-independent columnar memory format for
+ flat and hierarchical data, organized for efficient analytic operations on
+ modern hardware. It also provides computational libraries and zero-copy
+ streaming messaging and interprocess communication. Languages currently
+ supported include C, C++, Java, JavaScript, Python, and Ruby.
  .
  This package provides library files for Python support.
 
@@ -62,7 +74,13 @@ Depends:
   libarrow0 (= ${binary:Version}),
   libnvidia-fatbinaryloader,
   libcuda1
-Description: Apache Arrow is a data processing library for analysis
+Description: data processing library for analysis - GPU support
+ Apache Arrow is a cross-language development platform for in-memory data.
+ It specifies a standardized language-independent columnar memory format for
+ flat and hierarchical data, organized for efficient analytic operations on
+ modern hardware. It also provides computational libraries and zero-copy
+ streaming messaging and interprocess communication. Languages currently
+ supported include C, C++, Java, JavaScript, Python, and Ruby.
  .
  This package provides library files for GPU support.
 
@@ -73,7 +91,13 @@ Multi-Arch: same
 Depends:
   ${misc:Depends},
   libarrow0 (= ${binary:Version})
-Description: Apache Arrow is a data processing library for analysis
+Description: data processing library for analysis - development files
+ Apache Arrow is a cross-language development platform for in-memory data.
+ It specifies a standardized language-independent columnar memory format for
+ flat and hierarchical data, organized for efficient analytic operations on
+ modern hardware. It also provides computational libraries and zero-copy
+ streaming messaging and interprocess communication. Languages currently
+ supported include C, C++, Java, JavaScript, Python, and Ruby.
  .
  This package provides header files.
 
@@ -85,7 +109,13 @@ Depends:
   ${misc:Depends},
   libarrow-dev (= ${binary:Version}),
   libarrow-python0 (= ${binary:Version})
-Description: Apache Arrow is a data processing library for analysis
+Description: data processing library for analysis - python development files
+ Apache Arrow is a cross-language development platform for in-memory data.
+ It specifies a standardized language-independent columnar memory format for
+ flat and hierarchical data, organized for efficient analytic operations on
+ modern hardware. It also provides computational libraries and zero-copy
+ streaming messaging and interprocess communication. Languages currently
+ supported include C, C++, Java, JavaScript, Python, and Ruby.
  .
  This package provides header files for Python support.
 
@@ -97,7 +127,13 @@ Depends:
   ${misc:Depends},
   libarrow-dev (= ${binary:Version}),
   libarrow-gpu0 (= ${binary:Version})
-Description: Apache Arrow is a data processing library for analysis
+Description: data processing library for analysis - GPU development files
+ Apache Arrow is a cross-language development platform for in-memory data.
+ It specifies a standardized language-independent columnar memory format for
+ flat and hierarchical data, organized for efficient analytic operations on
+ modern hardware. It also provides computational libraries and zero-copy
+ streaming messaging and interprocess communication. Languages currently
+ supported include C, C++, Java, JavaScript, Python, and Ruby.
  .
  This package provides header files for GPU support.
 
@@ -110,7 +146,13 @@ Depends:
   ${misc:Depends},
   ${shlibs:Depends},
   libarrow0 (= ${binary:Version})
-Description: Apache Arrow is a data processing library for analysis
+Description: data processing library for analysis - glib runtime
+ Apache Arrow is a cross-language development platform for in-memory data.
+ It specifies a standardized language-independent columnar memory format for
+ flat and hierarchical data, organized for efficient analytic operations on
+ modern hardware. It also provides computational libraries and zero-copy
+ streaming messaging and interprocess communication. Languages currently
+ supported include C, C++, Java, JavaScript, Python, and Ruby.
  .
  This package provides library files.
 
@@ -121,7 +163,13 @@ Multi-Arch: same
 Depends:
   ${gir:Depends},
   ${misc:Depends}
-Description: Apache Arrow is a data processing library for analysis
+Description: data processing library for analysis - GObject Introspection
+ Apache Arrow is a cross-language development platform for in-memory data.
+ It specifies a standardized language-independent columnar memory format for
+ flat and hierarchical data, organized for efficient analytic operations on
+ modern hardware. It also provides computational libraries and zero-copy
+ streaming messaging and interprocess communication. Languages currently
+ supported include C, C++, Java, JavaScript, Python, and Ruby.
  .
  This package provides GObject Introspection typelib files.
 
@@ -136,7 +184,13 @@ Depends:
   libarrow-glib0 (= ${binary:Version}),
   gir1.2-arrow-1.0 (= ${binary:Version})
 Suggests: libarrow-glib-doc
-Description: Apache Arrow is a data processing library for analysis
+Description: data processing library for analysis - glib development files
+ Apache Arrow is a cross-language development platform for in-memory data.
+ It specifies a standardized language-independent columnar memory format for
+ flat and hierarchical data, organized for efficient analytic operations on
+ modern hardware. It also provides computational libraries and zero-copy
+ streaming messaging and interprocess communication. Languages currently
+ supported include C, C++, Java, JavaScript, Python, and Ruby.
  .
  This package provides header files.
 
@@ -147,7 +201,13 @@ Multi-Arch: foreign
 Depends:
   ${misc:Depends}
 Recommends: libglib2.0-doc
-Description: Apache Arrow is a data processing library for analysis
+Description: data processing library for analysis - document for glib
+ Apache Arrow is a cross-language development platform for in-memory data.
+ It specifies a standardized language-independent columnar memory format for
+ flat and hierarchical data, organized for efficient analytic operations on
+ modern hardware. It also provides computational libraries and zero-copy
+ streaming messaging and interprocess communication. Languages currently
+ supported include C, C++, Java, JavaScript, Python, and Ruby.
  .
  This package provides documentations.
 
@@ -161,9 +221,15 @@ Depends:
   ${shlibs:Depends},
   libarrow-glib0 (= ${binary:Version}),
   libarrow-gpu0 (= ${binary:Version})
-Description: Apache Arrow is a data processing library for analysis
+Description: data processing library for analysis - GPU/glib runtime
+ Apache Arrow is a cross-language development platform for in-memory data.
+ It specifies a standardized language-independent columnar memory format for
+ flat and hierarchical data, organized for efficient analytic operations on
+ modern hardware. It also provides computational libraries and zero-copy
+ streaming messaging and interprocess communication. Languages currently
+ supported include C, C++, Java, JavaScript, Python, and Ruby.
  .
- This package provides library files for GPU support.
+ This package provides library files for GPU support for glib
 
 Package: gir1.2-arrow-gpu-1.0
 Section: introspection
@@ -172,7 +238,13 @@ Multi-Arch: same
 Depends:
   ${gir:Depends},
   ${misc:Depends}
-Description: Apache Arrow is a data processing library for analysis
+Description: data processing library for analysis - GPU GObject Introspection
+ Apache Arrow is a cross-language development platform for in-memory data.
+ It specifies a standardized language-independent columnar memory format for
+ flat and hierarchical data, organized for efficient analytic operations on
+ modern hardware. It also provides computational libraries and zero-copy
+ streaming messaging and interprocess communication. Languages currently
+ supported include C, C++, Java, JavaScript, Python, and Ruby.
  .
  This package provides GObject Introspection typelib files for GPU support.
 
@@ -187,6 +259,12 @@ Depends:
   libarrow-gpu-dev (= ${binary:Version}),
   libarrow-gpu-glib0 (= ${binary:Version}),
   gir1.2-arrow-gpu-1.0 (= ${binary:Version})
-Description: Apache Arrow is a data processing library for analysis
+Description: data processing library for analysis - GPU/glib development files
+ Apache Arrow is a cross-language development platform for in-memory data.
+ It specifies a standardized language-independent columnar memory format for
+ flat and hierarchical data, organized for efficient analytic operations on
+ modern hardware. It also provides computational libraries and zero-copy
+ streaming messaging and interprocess communication. Languages currently
+ supported include C, C++, Java, JavaScript, Python, and Ruby.
  .
  This package provides header files for GPU support.
