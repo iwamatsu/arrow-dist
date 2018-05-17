@@ -1,0 +1,13 @@
+diff --git a/c_glib/doc/reference/Makefile.am b/c_glib/doc/reference/Makefile.am
+index 454c2b06..8356e3c5 100644
+--- a/c_glib/doc/reference/Makefile.am
++++ b/c_glib/doc/reference/Makefile.am
+@@ -59,7 +59,7 @@ GTKDOC_LIBS +=							\
+ 	$(top_builddir)/arrow-gpu-glib/libarrow-gpu-glib.la
+ endif
+ 
+-include $(srcdir)/gtk-doc.make
++include $(top_srcdir)/gtk-doc.make
+ 
+ CLEANFILES +=					\
+ 	$(DOC_MODULE)-decl-list.txt		\
