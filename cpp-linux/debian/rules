@@ -12,6 +12,7 @@ BUILD_TYPE=release
 	dh $@ --with gir,autoreconf
 
 override_dh_autoreconf:
+	if [ ! -d c_glib/m4 ] ; then mkdir c_glib/m4 ; fi
 	dh_autoreconf \
 	  --sourcedirectory=c_glib
 
